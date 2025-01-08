@@ -1,0 +1,103 @@
+/* General */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(to bottom, #ffe4e1, #ffb6c1);
+    color: #5c5c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor principal */
+  .main-container {
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Encabezado */
+  header {
+    padding: 20px;
+  }
+  
+  .heart-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ff6f91;
+    margin: 15px 0;
+  }
+  
+  /* Contenido */
+  .message {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: #ff6f91;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 15px rgba(255, 111, 145, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background: #ff8ea1;
+    transform: translateY(-2px);
+  }
+  
+  /* Sección de música */
+  .music-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .music-section h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ff6f91;
+    margin-bottom: 15px;
+  }
+  
+  .music-player {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 20px;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  footer .heart {
+    color: #ff6f91;
+  }
+  

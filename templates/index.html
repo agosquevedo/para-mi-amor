@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>𝑃𝑎𝑟𝑎 𝐼𝑔𝑛𝑎 . . .</title>
+  <link rel="icon" href="{{ url_for('static', filename='heart-icon.png') }}" type="image/png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <img src="{{ url_for('static', filename='pixel-heart.gif') }}" alt="Corazón Globo" class="heart-logo">
+      <h1>Te amo mi vida</h1>
+    </header>
+    <div class="content">
+      <p class="message">
+        Sos mi mundo entero. <br>
+        Hoy y siempre 💖
+      </p>
+      <button id="playlist-button" class="cta-button">🎵 Playlist para vos</button>
+    </div>
+
+    <div class="music-section">
+        <h2>Mi canción favorita</h2>
+        <div class="music-player">
+          <iframe width="100%" height="166" scrolling="no" frameborder="no" 
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/bruno-mars-lady-gaga/lady-gaga-x-bruno-mars-die-with-a-smile-slowed-reverb&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+          </iframe>
+        </div>
+      </div>
+      
+    <footer>
+      <p>Hecho con todo mi <span class="heart">❤️</span> para vos</p>
+    </footer>
+  </div>
+  
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
